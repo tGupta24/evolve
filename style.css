@@ -81,7 +81,7 @@ h1 a:hover {
 
   background-color: #2a2a2a;
   border-radius: 10px;
-  margin: auto;
+  margin: 50px auto;
 }
 
 .info::before {
@@ -290,7 +290,7 @@ h2 {
 }
 
 .aboutbg {
-  height: 100vh;
+  height: fit-content;
   width: 100%;
   display: flex;
   justify-content: center;
