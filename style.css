@@ -308,9 +308,11 @@ h2 {
 .aboutimg img {
   width: 300px;
   border-radius: 10px;
+  transition: transform .3s;
 }
 .aboutimg img:hover{
-  transform:scale(1.2);
+  transform:scale(1.1);
+  
 }
 @media only screen and (max-width: 900px) {
   .aboutus {
