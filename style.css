@@ -304,9 +304,13 @@ h2 {
   display: flex;
   align-items: center;
 }
+
 .aboutimg img {
   width: 300px;
   border-radius: 10px;
+}
+.aboutimg img:hover{
+  transform:scale(1.2);
 }
 @media only screen and (max-width: 900px) {
   .aboutus {
