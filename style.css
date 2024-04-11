@@ -73,7 +73,7 @@ h1 a:hover {
 
 .info {
   height: fit-content;
-  width: 50vw;
+  width: 70vw;
   color: white;
   padding: 45px;
   padding-top: 0;
@@ -217,6 +217,8 @@ h2 {
   padding: 3px;
 }
 .parainfo p {
+  text-align: left;
+  padding: 20px;
 }
 .FooterElement ul li:hover {
   text-decoration: underline;
@@ -298,7 +300,19 @@ h2 {
   background-color: black;
   color: white;
 }
-
+.aboutus {
+  display: flex;
+  align-items: center;
+}
+.aboutimg img {
+  width: 300px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .aboutus {
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 700px) {
   .hideonmobile {
     display: none;
