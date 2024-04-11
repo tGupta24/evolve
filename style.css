@@ -87,7 +87,7 @@ h1 a:hover {
 .info::before {
   content: "";
   height: 7px;
-  width: 32%;
+  width: 31%;
   background-color: #01f205;
   display: block;
   position: relative;
