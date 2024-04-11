@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img style="width: 76px" src="images/logo.png" alt="Logo" />
+        </div>
+        <ul class="nav-links">
+          <li class="hideonmobile underline"><a href="#">Home</a></li>
+          <li class="hideonmobile underline">
+            <a href="#ScrollTofooter">About</a>
+          </li>
+          <li class="hideonmobile underline"><a href="#">Contact</a></li>
+          <li class="hideonmobile underline">
+            <a href="#ScrollToBlog">Blog</a>
+          </li>
+          <li class="hideonmobile underline"><a href="#">Careers</a></li>
+        </ul>
+        <div class="search">
+          <input
+            class="input hideontab"
+            type="text"
+            name=""
+            id=""
+            placeholder="Search"
+          />
+          <button class="button hideontab">
+            <img src="/images/search.png" alt="" />
+          </button>
+        </div>
+
+        <img
+          onclick="showSideBar()"
+          class="Hamburger"
+          style="-webkit-filter: invert()"
+          src="images/icon-hamburger.svg"
+          alt=""
+        />
+      </nav>
+
+      <nav class="navbarForPhone">
+        <ul class="nav-links nav-linksForPhone">
+          <li>
+            <img
+              class="close"
+              onclick="hideSideBar()"
+              style="-webkit-filter: invert()"
+              src="images/icon-close.svg"
+              alt=""
+            />
+          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#ScrollTofooter">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#ScrollToBlog">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container frontbg">
+        <div class="img">
+          <video muted autoplay>
+            <source src="Flame Spitting R35 GTR in [4K].mp4" />
+          </video>
+        </div>
+        <div class="firstPage">
+          <div class="main">
+            <h1>We are welcome</h1>
+            <h1>you at evolve</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore quia ut voluptatum maiores fugit cumque similique?Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              nesciunt provident rem itaque impedit. Quisquam non laudantium
+              libero quibusdam.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container aboutbg">
+        <div class="info">
+          <div class="heading">
+            <h1><a href="">About Us</a></h1>
+            <h2></h2>
+          </div>
+          <div class="parainfo">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              numquam similique quis quos voluptatum maxime vero atque possimus,
+              quia nihil perspiciatis in veritatis deserunt! Inventore enim
+              alias necessitatibus, praesentium ratione minus est. Sint, ad!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+              dolorum maxime necessitatibus. Placeat alias sint quo. Omnis eum
+              incidunt iste veniam excepturi ex architecto temporibus explicabo
+              ipsa quas, quaerat dignissimos vitae non molestiae, rerum nihil,
+              nam nesciunt laborum harum nemo doloremque in. Vel nemo rem
+              voluptatem quidem, non a cupiditate, facilis, ut quam odit quae
+              adipisci aperiam pariatur? Natus minima quisquam accusamus numquam
+              reiciendis atque, ipsum suscipit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container albumsbg">
+        <div class="heading"><h2>Our Events and Memories</h2></div>
+        <div class="tpcards">
+          <div class="card2">
+            <div class="images">
+              <img src="images/img.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card2">
+            <div class="images">
+              <img src="images/img3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card2">
+            <div class="images">
+              <img src="images/img4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card2">
+            <div class="images">
+              <img src="images/img5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card2">
+            <div class="images">
+              <img src="images/img6.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card2">
+            <div class="images">
+              <img src="images/img4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card2">
+            <div class="images">
+              <img src="images/img1.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="card2">
+            <div class="images">
+              <img src="images/img1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="ScrollTofooter" class="footer">
+        <div class="FooterElement1 FooterElement">
+          <ul>
+            <li>
+              <img class="Footericon" src="images/logo.png" alt="" />
+            </li>
+            <li>
+              <ul class="icons">
+                <li><img src="images/icon-facebook.svg" alt="" /></li>
+                <li><img src="images/icon-youtube.svg" alt="" /></li>
+                <li><img src="images/icon-twitter.svg" alt="" /></li>
+                <li><img src="images/icon-pinterest.svg" alt="" /></li>
+                <li><img src="images/icon-instagram.svg" alt="" /></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="FooterElement2 FooterElement">
+          <ul>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">blog</a></li>
+          </ul>
+        </div>
+        <div class="FooterElement3 FooterElement">
+          <ul>
+            <li><a href="">careers</a></li>
+            <li><a href="">support</a></li>
+            <li><a href="">privacy</a></li>
+          </ul>
+        </div>
+        <div class="FooterElement4 FooterElement">
+          <ul>
+            <li><button class="footerButton">Let's begin</button></li>
+            <li>&copy;Evolve. All Right Reserved</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function showSideBar() {
+      const sidebar = document.querySelector(".navbarForPhone");
+      sidebar.style.display = "flex";
+    }
+    function hideSideBar() {
+      const sidebar = document.querySelector(".navbarForPhone");
+      sidebar.style.display = "none";
+    }
+  </script>
+</html>
